@@ -42,8 +42,7 @@ PROBANDO
     display: none;
 }
 .nav__menu{
-    display: fixed;
-    top:0;
+    
     grid-auto-flow: column;
     gap: 3em;
 }
