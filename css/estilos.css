@@ -10,7 +10,7 @@ html,
 body{
     font-family: 'Montserrat', sans-serif;
 }
-#main-header{
+#main-header nav{
 
     top:0;
     position: fixed;
