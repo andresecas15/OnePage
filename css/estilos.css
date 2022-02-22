@@ -10,6 +10,11 @@ html,
 body{
     font-family: 'Montserrat', sans-serif;
 }
+#main-header{
+
+    top:0;
+    position: fixed;
+}
 .nav h1{
     font-family:'Comfortaa', cursive;
     color: #202020;
