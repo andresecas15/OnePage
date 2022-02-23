@@ -5,12 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+#main-header .nav{
+    top:0;
+    position: fixed;
+    background: #ACF7F7;
+    width: 100%
+}
 html,
 body{
     font-family: 'Montserrat', sans-serif;
 }
-
 .nav h1{
     font-family:'Comfortaa', cursive;
     color: #202020;
@@ -37,7 +41,7 @@ body{
     display: none;
 }
 .nav__menu{
-    
+    display: grid;
     grid-auto-flow: column;
     gap: 3em;
 }
